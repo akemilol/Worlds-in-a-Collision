@@ -1,5 +1,6 @@
 import Cabecalho from "@/Components/Cabecalho/Cabecalho";
 import Cards from "@/Components/Cards/Cards";
+import Menu from "@/Components/Menu/Menu"
 import type { Metadata } from "next";
 import "@/app/globals.css";
 
