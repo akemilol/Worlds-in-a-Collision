@@ -26,6 +26,11 @@ export default function Menu() {
                 Velocidade
                 </Link>
             </li>
+            <li>
+                <Link href="/gravitacionais" className="text-white hover:text-gray-300">
+                Gravitacionais
+                </Link>
+            </li>
             </ul>
         </div>
         </nav>
