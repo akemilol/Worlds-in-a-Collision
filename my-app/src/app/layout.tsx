@@ -1,4 +1,3 @@
-import Cabecalho from "@/Components/Cabecalho/Cabecalho";
 import type { Metadata } from "next";
 import "@/app/globals.css";
 
@@ -16,7 +15,6 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
   return (
     <html lang="pt-br">
       <body>
-        <Cabecalho />
         {children}
       </body>
     </html>
