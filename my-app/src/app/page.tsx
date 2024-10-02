@@ -1,7 +1,12 @@
+import Menu from "@/Components/Menu/Menu";
+import Cards from "@/Components/Cards/Cards";
+
 export default function Home() {
     return (
       <div>
-        <h1>Página Principal</h1>
+        <Menu/>
+        
+        <Cards />
       </div>
     )
   }
